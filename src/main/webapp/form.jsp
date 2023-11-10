@@ -3,7 +3,7 @@
 <body>
 
 <!-- text -->
-<h2>Text input fields</h2>
+<h2>학생 정보 입력</h2>
 
 <form>
     <label for="fname">First name:</label><br>
