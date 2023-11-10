@@ -1,15 +1,27 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <body>
 
-<!-- text -->
 <h2>학생 정보 입력</h2>
 
+<!-- text -->
+<%-- 이름, 학번, 학부, 직업, 생년월일, 성별, 전화번호, MBTI, 사는 곳, RC--%>
 <form>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname">
+    <label for="name">이름:</label>
+    <input type="text" id="name" name="name" placeholder="이름을 입력하세요"><br>
+    <label for="Student_No">학번:</label>
+    <input type="text" id="Student_No" name="Student_No" placeholder="학번을 입력하세요"><br>
+    <label for="Department">학부:</label>
+    <input type="text" id="Department" name="Department" placeholder="학부를 입력하세요"><br>
+    <form>
+        <input type="radio" id="job1" name="fav_language" value="job1">
+        <label for="job1">학부생</label>
+        <input type="radio" id="job2" name="fav_language" value="job2">
+        <label for="job2">졸업생</label>
+        <input type="radio" id="job3" name="fav_language" value="job3">
+        <label for="job3">대학원생</label>
+    </form>
 </form>
 
 <p>Note that the form itself is not visible.</p>
